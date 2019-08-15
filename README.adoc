@@ -1,11 +1,11 @@
-= streams-lite
+= streams-bare-bones
 
 A bare bones example of how to setup streams (Kafka) v1.2 on openshift
 Note these instructions use the following configuration:
 
 - project/namespace: kafka
 - kafka cluster name: kafka-test
-- topics: my-topic
+- topics: my-topic,prod-topic
 
 
 == Install cluster operator

@@ -7,6 +7,9 @@ Note these instructions use the following configuration:
 - kafka cluster name: kafka-test
 - topics: my-topic,prod-topic
 
+NOTE: In order to install the cluster operator a user with cluster administrator
+
+NOTE: If projects have quotas, make sure you have enough resources this was tested with 10 CPUs and 12 G of memory.  These limits can be verified with the command 'oc describe quota kafka-quota'
 
 == Install cluster operator
 
